@@ -1,0 +1,127 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
+/* Estilo para la sección hero */
+
+.hero {
+    background-color: #ddd;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Sección de servicios */
+
+#services {
+    padding: 20px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Sección de "Sobre Nosotros" */
+
+#about {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Pie de página */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Diseño responsivo */
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+    .hero {
+        padding: 30px;
+    }
+    .hero img {
+        width: 100%;
+    }
+}
